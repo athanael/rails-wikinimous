@@ -8,3 +8,78 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+header {
+  background-color: #f8f9fa;
+  height: 55px;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover h2:hover {
+  color: #0156b3 !important;
+  text-decoration: underline !important;
+}
+
+h1 {
+  font-size: 25px !important;
+  line-height: 25px !important;
+}
+
+.modify:hover,
+.delete:hover {
+  color: #0156b3;
+}
+
+.modify,
+.delete {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+h2,
+.modify,
+.delete {
+  color: #017bfe;
+}
+
+.article-preview {
+  max-width: 600px;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.article-preview p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+article,
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.article-title {
+  color: black;
+  font-size: 45px;
+  display: inline-block;
+}
+
+label {
+  display: block !important;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  color: black;
+  font-size: 40px;
+}
+
+.black {
+  color: black;
+  margin-bottom: 0;
+}
